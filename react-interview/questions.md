@@ -78,7 +78,7 @@ It's a step that happens between the render function being called and the displa
 
 **`Hydration`**: The concept when the layout has arrived and the JS is yet to be injected in the layout for eg if you have a button and clicking on the button will lead to some functionality then sometimes what happens is that the button is non-clickable for the moment till JS arrives the layout.
 
----
+---html and css m js ko inject krne wale process ko known as hydration
 
 ## Q: What are controlled components?
 
@@ -130,4 +130,4 @@ Which can be changed dynamically
 
 **`React`** -> Used for creating the elements
 <br>
-**`ReactDOM`** -> Used for displaying the elements
+**`ReactDOM`** -> Used for displaying the elements 
