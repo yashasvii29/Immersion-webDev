@@ -30,6 +30,7 @@ As you can make dynamic changes with the help of hooks with Function components 
 ---
 
 ## Q: What are Pure Components?
+<!-- react.memo(component) -->
 
 Pure components are the components which render the same output for the same state and props. In function components, you can achieve these pure components through memoized React.memo()
 
@@ -72,6 +73,7 @@ It's a step that happens between the render function being called and the displa
 
 ⚠️ Reconciliation in React refers to the process of comparing the virtual representation of a component’s UI (Virtual DOM) with the actual DOM and determining if and how the real DOM should be updated to match the virtual representation
 
+ Reconciliation is the process through which React updates the Browser DOM. 
 ---
 
 **`React Fibre`** : The core algorithm which is basically happening behind the scene of virtual DOM.
