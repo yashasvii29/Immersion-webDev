@@ -1,7 +1,7 @@
 function test(){
     let a="hello";
     if(true){
-        let a ="hello";
+        let a ="hi";
         console.log(a);
     }
     console.log(a);
