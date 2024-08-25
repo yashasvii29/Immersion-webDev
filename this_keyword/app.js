@@ -94,17 +94,17 @@
 
 // -----------------------------------------------
 
-let obj1 = {
-    a: 10,
-    b: function (a, b, c) {
-      console.log(this, a, b, c);
-    },
-  };
-  let obj2 = {
-    a: 50,
-  };
-  let ans = obj1.b.bind(obj2, 10, 20, 30); //creates a copy
-  ans();
+// let obj1 = {
+//     a: 10,
+//     b: function (a, b, c) {
+//       console.log(this, a, b, c);
+//     },
+//   };
+//   let obj2 = {
+//     a: 50,
+//   };
+//   let ans = obj1.b.bind(obj2, 10, 20, 30); //creates a copy
+//   ans();
   
   // -----------------------------------------------
   
