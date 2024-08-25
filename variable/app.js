@@ -6,11 +6,11 @@ var d;
 // in case of var redeclare bhi kr sakte hai and reinitialise bhi
 console.log(a);
 
-
+// let b;
 let b = 5;
 // let b = 10;
 b=10;
-let k;
+// let k;
 // let ke case m only reinitialse means reassign kr sakte hai
 console.log(b)
 
